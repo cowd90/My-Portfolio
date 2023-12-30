@@ -309,15 +309,17 @@ header.sticky {
 
 .portfolio-content {
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   align-items: center;
-  gap: 2.3rem;
+  gap: 2.3rem;  
   margin-top: 4.2rem;
 }
 
 .row img {
-  height: auto;
+  height: 400px;
   width: 100%;
+  object-fit: cover;
   border-radius: 28px;
   margin-bottom: 1.4rem;
 }
@@ -357,6 +359,7 @@ header.sticky {
 }
 
 .row h4 {
+  color: white;
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
