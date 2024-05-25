@@ -348,18 +348,6 @@ header.sticky {
   color: var(--other-color);
 }
 
-.row i {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 55px;
-  height: 55px;
-  font-size: 27px;
-  border-radius: 50%;
-  color: var(--text-color);
-  background: rgb(31, 31, 31);
-}
-
 .row h4 {
   color: white;
   font-size: 25px;
@@ -368,9 +356,20 @@ header.sticky {
   line-height: 1.4;
 }
 
-.row:hover {
+.row button {
+  width: 100px;
+  background-color: var(--second-bg-color);
+  padding: 10px;
+}
+
+.row button a {
+  color: var(--text-color);
+}
+
+.row button:hover {
+  cursor: pointer;
   border: 1px solid var(--main-color);
-  transform: translateY(-5px) scale(1.03);
+  transform: translateY(-3px) scale(1.03);
   cursor: pointer;
 }
 
